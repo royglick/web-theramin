@@ -46,10 +46,11 @@ function draw() {
   background(255)
   push();
   textFont('helvetica')
-  textSize(100)
-  fill('rgba(0, 0, 0, 0.1)')
+  textSize(20)
+  fill('rgba(0, 0, 0, 0.8)')
   noStroke()
-  text("Sound On :)",100,700 )
+  text("Place your hand in front of the camera (not too close though)",100,670 )
+  text("and touch your thumb with your index finger, like this -> 👌🏼",100,700 )
   pop();
 
 
