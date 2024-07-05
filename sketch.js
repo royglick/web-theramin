@@ -49,9 +49,12 @@ function draw() {
   textSize(20)
   fill('rgba(0, 0, 0, 0.8)')
   noStroke()
-  text("Place your hand in front of the camera (not too close though)",100,670 )
-  text("and touch your thumb with your index finger, like this -> 👌🏼",100,700 )
+  text("1. Place your hand in front of the camera (not too close though).",60,670 )
+  text("2. Touch your thumb with your index finger. like this -> 👌🏼",60,690 )
+  text("3. Move your hand up and down to control the pitch.",60,710 )
+  text("Your sound should be on! :)",60,730)
   pop();
+
 
 
   //move image by the width of image to the left
