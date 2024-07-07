@@ -70,7 +70,7 @@ function draw() {
     // draw points
     for (let j = 0; j < hand.keypoints.length; j++) {
       let keypoint = hand.keypoints[j];
-      fill(0, 255, 0);
+      fill(0);
       circle(keypoint.x, keypoint.y, 10);
     }
 
@@ -131,7 +131,7 @@ function connectPoints(hand, name1, name2) {
 
 
 function drawHandConnections(hand) {
-  stroke(0, 255, 0);
+  stroke(0);
   strokeWeight(2);
   
   // Thumb
